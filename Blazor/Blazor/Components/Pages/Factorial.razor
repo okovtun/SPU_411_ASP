@@ -1,9 +1,11 @@
 ﻿@page "/Factorial"
 @rendermode InteractiveServer
 
+@using System.Numerics;
+
 <h1>Factorial</h1>
 
-<input type="number" min="0" @bind="n" />
+<input type="number" min="0" @bind="n" @bind:after="Calculate" />
 <h3>! = @f</h3>
 <button class="btn btn-primary" @onclick="Calculate">Calculate</button>
 
@@ -11,7 +13,7 @@
 {
 	int n = 0;	//RAII - Resource Aquisition is Initialization
 	//		(Выделение ресурсов - это Инициализация)
-	int f = 1;
+	BigInteger f = 1;
 	void Calculate()
 	{
 		f = 1;
