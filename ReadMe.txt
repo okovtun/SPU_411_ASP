@@ -1,6 +1,18 @@
 ﻿https://github.com/okovtun/SPU_411_ASP
 https://www.youtube.com/playlist?list=PLM4V0mnGe_ao
 
+SVG:
+https://www.w3schools.com/graphics/svg_path.asp
+
 TODO:
+1. Добавить значки на элементы 'Power' и 'Fibonacci';
+2. Добавить проект 'Converter', и в этом проекте реализовать преобразование чиел
+   из одной системы счисления в другую:
+	Dec2Bin;
+	Dec2Hex;
+	Bin2Dec;
+	Hex2Dec;
+
+DONE:
 1. В проект 'Blazor' добавить компонент 'Power', который возводит указанное число в указанную степень;
 2. В проект 'Blazor' добавить компонент 'Fibonacci', который выводит на экран заданное количество чисел из ряда Фибоначчи;
