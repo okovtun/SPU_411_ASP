@@ -4,6 +4,16 @@ https://www.youtube.com/playlist?list=PLM4V0mnGe_ao
 SVG:
 https://www.w3schools.com/graphics/svg_path.asp
 
+TaskList:
+https://github.com/okovtun/PD_411_ASP/tree/master/Blazor/TODOlist
+https://www.youtube.com/playlist?list=PLeqyOOqxeiIOomneIs-QvkQFqTkBUdJdo
+-----------------------------------
+https://github.com/okovtun/VPU_411_ASP/
+https://www.youtube.com/playlist?list=PLeqyOOqxeiIPylcV7pMAkSulNfJk_WFLs
+
+AI:
+https://www.youtube.com/watch?v=W-3ZOqm-Ozk
+
 TODO:
 1. Добавить значки на элементы 'Power' и 'Fibonacci';
 2. Добавить проект 'Converter', и в этом проекте реализовать преобразование чиел
