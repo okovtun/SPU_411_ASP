@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace Movies.Models
 {
@@ -8,6 +9,7 @@ namespace Movies.Models
 
 		[Required(ErrorMessage = "Впишите название фильма")]
 		[StringLength(50, MinimumLength = 2)]
+		[DisplayName("Название")]	//В Blazor НЕ работает
 		public string Title { get; set; }
 
 		[Range(typeof(DateOnly), "1888-10-14", "2032-12-31")]
