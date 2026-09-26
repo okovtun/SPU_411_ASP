@@ -15,6 +15,10 @@ AI:
 https://www.youtube.com/watch?v=W-3ZOqm-Ozk
 
 TODO:
+1. В Details группы должен отображаться список стедентов этой группы;
+2. В Details преподавателя должен отображаться список дисциплин, которые он ведет;
+
+DONE:
 1. Сделать текстовый поиск в проекте Movies;
 2. В проекте 'MyAcademy' Добавить Сортировку, Pagination и Поиск на все существующие страницы
 	(Disciplines, Groups, Students, Teachers);
