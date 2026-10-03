@@ -7,7 +7,10 @@
 	<label for="direction" class="form-label">direction:</label>
 	@* <InputNumber id="direction" @bind-Value="Group.direction" class="form-control" aria-required="true"/>  *@
 	<InputSelect id="direction" @bind-Value="Group.direction" class="form-control" @>
-		<option selected disabled value="0"> --- Выберите направление обучения --- </option>
+		@if (ShowPlaceholder)
+		{
+			<option selected disabled value="0"> --- Выберите направление обучения --- </option>
+		}
 		@using (Academy.Data.AcademyContext context = DbFactory.CreateDbContext())
 		{
 			@foreach (Direction direction in context.Directions)
@@ -24,6 +27,6 @@
 	[Parameter]
 	public Group Group { get; set; }
 
-	// [Parameter]
-	// public bool ShowPlaceholder { get; set; }
+	[Parameter]
+	public bool ShowPlaceholder { get; set; }
 }
