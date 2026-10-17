@@ -14,6 +14,29 @@ https://www.youtube.com/playlist?list=PLeqyOOqxeiIPylcV7pMAkSulNfJk_WFLs
 AI:
 https://www.youtube.com/watch?v=W-3ZOqm-Ozk
 
+Timer:
+https://github.com/okovtun/PD_411_WEB
+https://github.com/okovtun/P_421_WEB
+https://github.com/okovtun/PV_522_WEB
+
+React:
+https://www.youtube.com/playlist?list=PLeqyOOqxeiIOLhFX2ygGjvOywnGE5rM-Z
+https://github.com/okovtun/react_pd_411_1
+https://github.com/okovtun/react_pd_411_2
+https://github.com/okovtun/react_pd_411_3
+https://github.com/okovtun/react_pd_411_use_effect
+https://github.com/okovtun/react_pd_411_food_router
+
+ASP.NET:
+https://github.com/okovtun/PD_411_ASP
+
+UNIX (Yandex cloud):
+https://www.youtube.com/playlist?list=PLeqyOOqxeiINJgbEO0pd6giOYjk8IcxiG
+https://www.youtube.com/playlist?list=PLeqyOOqxeiIPJ5ms9kxlHNmKHo7H4eqvi
+
+PHP:
+https://github.com/okovtun/PD_411_PHP
+
 TODO:
 1. Сделать сортировку, поиск и pagination для студентов и преподавателей;
 2. Отобраить возраст для студентов и преподавателей, и обеспечить возможность сортировать по возрасту;
